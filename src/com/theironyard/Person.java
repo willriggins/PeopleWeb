@@ -24,14 +24,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", email='" + email + '\'' +
-                ", country='" + country + '\'' +
-                ", ip='" + ip + '\'' +
-                '}';
+        return "{Person "+ id + ": " + firstName + ", " + lastName + ", " + email + ", " + country + ", " + ip + "d}";
     }
 
 }
