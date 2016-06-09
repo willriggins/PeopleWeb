@@ -1,9 +1,10 @@
 <html>
 <head>
     <title>People</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-
+<div id="container2">
 {{#list}}
 <a href="/person?id={{id}}">{{firstName}} {{lastName}}</a><br>
 {{/list}}
@@ -14,5 +15,6 @@
 
 {{#next}}
 <a href="/?offset={{offsetUp}}">{{/next}}Next{{#next}}</a>{{/next}}
+</div>
 </body>
 </html>

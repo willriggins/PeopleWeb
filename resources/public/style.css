@@ -1,0 +1,38 @@
+body {
+    font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+    /*background-image: url("cat2.jpg");*/
+}
+#container {
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    margin: 10% auto;
+    border: 2px black solid;
+    line-height: 90%;
+}
+
+#container2 {
+    text-align: center;
+    background-color: white;
+    height: 382px;
+    width: 300px;
+    margin: 10% auto;
+    border: 2px black solid;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px yellow;
+    color: grey
+}
+
+.p {
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px yellow;
+}
+
+.line {
+    color: black;
+    text-align: center;
+}

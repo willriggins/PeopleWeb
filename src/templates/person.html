@@ -4,9 +4,12 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<div id="container">
 <h1>{{firstName}} {{lastName}}</h1>
-<p class="p">email → {{email}}</p>
+<p class="line">———</p>
+<p class="p">email → <a href="mailto:{{email}}">{{email}}</a></p>
 <p class="p">country → {{country}}</p>
 <p class="p">ip address → {{ip}}</p>
+</div>
 </body>
 </html>
